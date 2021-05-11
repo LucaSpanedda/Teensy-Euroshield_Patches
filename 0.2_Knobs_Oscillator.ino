@@ -23,7 +23,6 @@ AudioSynthWaveform       waveform1;      //xy=110,75
 AudioOutputI2S           audioOutput;        // audio shield: headphones & line-out
 AudioConnection          patchCord1(waveform1, 0, audioOutput, 0);
 AudioConnection          patchCord2(waveform1, 0, audioOutput, 1);
-
 AudioControlSGTL5000 audioShield;
 // GUItool: end automatically generated code
 
